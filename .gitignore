@@ -1,0 +1,66 @@
+﻿# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment variables and credentials
+.env
+*.env
+!.env.example
+
+# Generated data
+data/processed/*
+data/rejected/*
+!data/processed/.gitkeep
+!data/rejected/.gitkeep
+
+# Logs and temporary files
+logs/
+*.log
+tmp/
+temp/
+~$*
+*.tmp
+
+# Operating system and editors
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+
+# Power BI temporary files
+*.pbix.lock
+
+# Additional Python tooling
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local database and backup files
+*.bak
+*.mdf
+*.ldf
+
+# Power BI local backups
+*.pbit.lock
+
+# Raw dataset with unverified redistribution rights
+data/raw/online_retail_transactions_raw.xlsx
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Local data and credentials
+data/raw/
+data/processed/
+data/rejected/
+.env
+.env.*
+
+# Power BI files containing imported data
+*.pbix
